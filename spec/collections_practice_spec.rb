@@ -67,3 +67,10 @@ describe 'collections practice' do
     end
   end
 end
+
+# Question 10
+describe '#swap_elements_from_to' do
+  it 'swap the first and second elements of an array' do
+    expect(swap_elements_from_to(["blake", "ashley", "scott"],0,1)).to eq(["ashley", "blake", "scott"])
+  end
+end
